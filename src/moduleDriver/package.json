@@ -1,5 +1,5 @@
 {
-  "name": "boxbot",
+  "name": "boxBotModuleDriver",
   "version": "1.0.0",
   "description": "This is a repo to consolidate code relating to a wood box on my desk",
   "main": "app.js",
