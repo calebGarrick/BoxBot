@@ -8,5 +8,14 @@
   },
   "keywords": [],
   "author": "Caleb Garrick <caleb.garrick@gmail.com> (calebgarrick.github.io)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "@types/node": "^14.0.24",
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "env-var": "^6.2.0",
+    "https": "^1.0.0"
+  }
 }
