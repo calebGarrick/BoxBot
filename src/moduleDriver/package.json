@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "Caleb Garrick <caleb.garrick@gmail.com> (calebgarrick.github.io)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "env-var": "^6.2.0",
+    "express": "^4.17.1",
+    "rpi-gpio": "^2.1.7"
+  }
 }
