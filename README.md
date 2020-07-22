@@ -10,3 +10,5 @@ Currently it contains the door module which provides the api to open/close and l
 ### discordBot
 
 This was added as a result of PR#1, which allows the moduleDriver to be asked via a discord bot. The rpi still has not arrived, so the testing still resulted in the pin setup errors.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
