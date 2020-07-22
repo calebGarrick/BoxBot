@@ -10,17 +10,23 @@
  */
 
 import * as express from 'express';
-
-const app = express();
+import * as dotenv from 'dotenv';
+import * as env from 'env-var';
 
 import {initMainConfig} from './config/main-config';
 import {initRouteConfig} from './config/route-config';
 
+dotenv.config();
+
+const app = express();
+const PORT:number = env.get('PORT').asPortNumber() || 5000;
+
 initMainConfig(app);
 initRouteConfig(app);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT);
+app.listen(PORT,()=>{
+    console.log('Listening...');
+});
 
 
 
