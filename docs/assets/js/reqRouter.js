@@ -1,6 +1,6 @@
 function sendRequest(command){
     fetch(command, {
-        method: 'Get',
+        method: 'GET',
         keepalive: false
       }).then((res)=>{
         console.log(res.data);
