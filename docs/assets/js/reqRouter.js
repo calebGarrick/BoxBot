@@ -1,6 +1,10 @@
 function sendRequest(command){
-    $.get(command, function(data){
-
-        console.log(`${data}`);
-    })
+    fetch(command, {
+        method: 'Get',
+        keepalive: false
+      }).then((res)=>{
+        console.log(res.data);
+      }).catch((err)=>{
+        console.log(err.message);
+      });
 }
