@@ -1,4 +1,4 @@
 theme: jekyll-theme-time-machine
 layout: default
-serverURL: 66.30.105.192:55000/
+serverURL: http://66.30.105.192:55000/
 
