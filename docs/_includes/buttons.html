@@ -1,7 +1,7 @@
 <ul>
     {% for command in site.data.api %}
       <li>
-        <button type="button" onclick="sendRequest({{site.serverURL }}{{ command.name }})">{{ command.name }}</button>
+        <button type="button" onclick="sendRequest('{{site.serverURL }}{{ command.name }}')">{{ command.name }}</button>
 
       </li>
     {% endfor %}
