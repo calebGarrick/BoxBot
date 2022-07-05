@@ -10,7 +10,7 @@
   "author": "Caleb Garrick <caleb.garrick@gmail.com> (calebgarrick.github.io)",
   "license": "MIT",
   "dependencies": {
-    "@discordjs/opus": "^0.3.2",
+    "@discordjs/opus": "^0.8.0",
     "@types/node": "^14.0.24",
     "axios": "^0.19.2",
     "discord.js": "^12.2.0",
